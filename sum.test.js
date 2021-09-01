@@ -1,4 +1,4 @@
-const sum = require("./sum");
+import { sum } from "./sum";
 
 describe("The sum function", () => {
   it("adds two numbers", () => {
