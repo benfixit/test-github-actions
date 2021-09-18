@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           yarn set version 1.22.10
-          yarn install --frozen-lockfile
+          yarn install
 
       - name: Test
         run: yarn test
